@@ -17,5 +17,5 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: 22
           script: |
-            cd /www/wwwroot/testing
+            cd /www/wwwroot/testing/testing
             git pull
