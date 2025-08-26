@@ -18,4 +18,6 @@ jobs:
           port: 22
           script: |
             cd /www/wwwroot/testing/
+            git add .
+            git commit -m "Save local changes before pull"
             git pull
